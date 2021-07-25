@@ -1,6 +1,8 @@
 pressed = false
+dragging = false
 end_pos = {x:0, y:0}
 start_pos = {x:0, y:0}
+actual_pos = {x:0, y:0}
 
 phy_rotation = 00;
 phy_fixed_rotation = true;
@@ -11,6 +13,8 @@ handle_drag_gesture = function(){
 	
 	var len = point_distance(start_pos.x, start_pos.y,end_pos.x, end_pos.y)
 
-	len*=10000
-	physics_apply_impulse(x,y, lengthdir_x(len, dir), lengthdir_y(len, dir))
+	len*=len/10
+	
+	len *= 100
+	physics_apply_force(x,y, lengthdir_x(len, dir), lengthdir_y(len, dir))
 }

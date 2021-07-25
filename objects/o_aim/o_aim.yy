@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_aim",
-    "path": "sprites/s_aim/s_aim.yy",
+    "name": "s_Alvo",
+    "path": "sprites/s_Alvo/s_Alvo.yy",
   },
   "solid": false,
   "visible": true,

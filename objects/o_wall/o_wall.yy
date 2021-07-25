@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_wall",
-    "path": "sprites/s_wall/s_wall.yy",
+    "name": "s_Obstaculos",
+    "path": "sprites/s_Obstaculos/s_Obstaculos.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,16 +21,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [
     {"x":0.0,"y":0.0,},
-    {"x":65.0,"y":0.0,},
-    {"x":65.0,"y":62.0,},
-    {"x":0.0,"y":62.0,},
+    {"x":128.0,"y":0.0,},
+    {"x":128.0,"y":128.0,},
+    {"x":0.0,"y":128.0,},
   ],
   "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "barriers",
+    "path": "folders/Objects/barriers.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_wall",

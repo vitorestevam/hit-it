@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_disc",
-    "path": "sprites/s_disc/s_disc.yy",
+    "name": "s_Player",
+    "path": "sprites/s_Player/s_Player.yy",
   },
   "solid": false,
   "visible": true,
@@ -14,14 +14,14 @@
   "physicsGroup": 1,
   "physicsDensity": 0.4,
   "physicsRestitution": 1.5,
-  "physicsLinearDamping": 2.5,
+  "physicsLinearDamping": 2.2,
   "physicsAngularDamping": 0.1,
   "physicsFriction": 0.2,
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [
-    {"x":50.0,"y":47.0,},
-    {"x":44.0,"y":47.0,},
+    {"x":128.0,"y":128.0,},
+    {"x":114.0,"y":128.0,},
   ],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
@@ -29,6 +29,8 @@
     {"isDnD":false,"eventNum":66,"eventType":13,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":68,"eventType":13,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":82,"eventType":5,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":67,"eventType":13,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

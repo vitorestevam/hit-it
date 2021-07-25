@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_ball",
-    "path": "sprites/s_ball/s_ball.yy",
+    "name": "s_Simple_Ball",
+    "path": "sprites/s_Simple_Ball/s_Simple_Ball.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,8 +20,8 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [
-    {"x":32.0,"y":32.0,},
-    {"x":32.0,"y":32.0,},
+    {"x":63.0,"y":62.0,},
+    {"x":64.0,"y":62.0,},
   ],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},

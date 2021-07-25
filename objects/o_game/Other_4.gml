@@ -1,0 +1,1 @@
+if(room == r_setup) room_goto(Room_menu)
