@@ -63,6 +63,7 @@
     {"id":{"name":"ga_configureAvailableResourceItemTypes","path":"scripts/ga_configureAvailableResourceItemTypes/ga_configureAvailableResourceItemTypes.yy",},"order":10,},
     {"id":{"name":"ga_configureAvailableCustomDimensions03","path":"scripts/ga_configureAvailableCustomDimensions03/ga_configureAvailableCustomDimensions03.yy",},"order":8,},
     {"id":{"name":"ga_onQuit","path":"scripts/ga_onQuit/ga_onQuit.yy",},"order":18,},
+    {"id":{"name":"s_name","path":"sprites/s_name/s_name.yy",},"order":14,},
     {"id":{"name":"o_aim","path":"objects/o_aim/o_aim.yy",},"order":4,},
     {"id":{"name":"Room_level_base_Child_8","path":"rooms/Room_level_base_Child_8/Room_level_base_Child_8.yy",},"order":9,},
     {"id":{"name":"o_game","path":"objects/o_game/o_game.yy",},"order":1,},
