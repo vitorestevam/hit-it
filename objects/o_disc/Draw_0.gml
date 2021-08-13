@@ -5,7 +5,6 @@ if(dragging){
 	dir+=180
 	
 	var len =  point_distance(start_pos.x, start_pos.y,actual_pos.x, actual_pos.y)
-	show_debug_message(len)
 	len = len/5
 	var _xx = x+lengthdir_x(100+len,dir)
 	var _yy = y+lengthdir_y(100+len,dir)

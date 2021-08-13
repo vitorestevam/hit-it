@@ -4,5 +4,5 @@ if(place_meeting(x,y,o_aim)){
 	phy_speed_x = 0;
 	phy_speed_y = 0;
 	
-	o_game.go_to_next_level()
+	o_game.end_level()
 }

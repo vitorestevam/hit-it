@@ -1,0 +1,1 @@
+o_camera.shake(0.15,2)

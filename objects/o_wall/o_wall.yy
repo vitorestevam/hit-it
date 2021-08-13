@@ -1,9 +1,9 @@
 {
   "spriteId": {
-    "name": "s_Obstaculos",
-    "path": "sprites/s_Obstaculos/s_Obstaculos.yy",
+    "name": "s_obstaculo",
+    "path": "sprites/s_obstaculo/s_obstaculo.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -13,10 +13,10 @@
   "physicsShape": 1,
   "physicsGroup": 1,
   "physicsDensity": 1E+16,
-  "physicsRestitution": 0.1,
-  "physicsLinearDamping": 0.1,
-  "physicsAngularDamping": 0.1,
-  "physicsFriction": 0.2,
+  "physicsRestitution": 0.0,
+  "physicsLinearDamping": 0.0,
+  "physicsAngularDamping": 0.0,
+  "physicsFriction": 0.0,
   "physicsStartAwake": false,
   "physicsKinematic": false,
   "physicsShapePoints": [
@@ -25,7 +25,9 @@
     {"x":128.0,"y":128.0,},
     {"x":0.0,"y":128.0,},
   ],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
