@@ -4,7 +4,7 @@ end_pos = {x:0, y:0}
 start_pos = {x:0, y:0}
 actual_pos = {x:0, y:0}
 
-base_speed = 20000
+base_speed = 40000
 
 can_move = true
 phy_rotation = 00;
