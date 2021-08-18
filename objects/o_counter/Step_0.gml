@@ -1,0 +1,1 @@
+if(hits >= hits_todo) lost = true

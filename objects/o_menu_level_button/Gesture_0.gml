@@ -4,3 +4,5 @@ if(struct.status = -1){ // locked
 else{
 	start_level()
 }
+
+o_audio_player.play_click()

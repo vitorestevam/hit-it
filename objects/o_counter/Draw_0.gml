@@ -1,0 +1,6 @@
+var _x = camera_get_view_width(view_camera[0])
+var _y = camera_get_view_y(view_camera[0])
+draw_set_color(c_white)
+draw_set_halign(fa_right)
+draw_set_valign(fa_top)
+draw_text(_x-10,_y+10,string(hits)+"/"+string(hits_todo))

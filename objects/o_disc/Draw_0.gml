@@ -13,3 +13,5 @@ if(dragging){
 	draw_sprite_ext(s_seta,0,_xx,_yy,1.5,1.5,dir,c_white,0.75)
 	draw_circle(_xx,_yy,20,5)
 }
+
+//draw_text(x,y,phy_speed)
